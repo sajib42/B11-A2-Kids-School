@@ -1,0 +1,160 @@
+/* navbar-design */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* .head{
+    height: 102px;
+    width: 1400px;
+} */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    height: 62px;
+    width: 1160px;
+    margin: 0 auto;
+}
+.div-1{
+    display: flex;
+    gap: 8px;
+}
+.nav-text{
+    display: flex;
+    gap: 20px;
+
+}
+.btn-nav{
+   height: 50px;
+   width: 197px; 
+   border-radius: 12px;
+   background-color:orange ;
+   border: transparent;
+   color: white;
+}
+
+.img-1{
+    display: none;
+}
+/* 1st section design */
+
+.baby-sec{
+
+ 
+}
+.baby-container{
+ display: flex;
+ justify-content: space-between;
+ height: 575px;
+width: 1160px;
+margin: 0 auto;
+gap: 50px;
+padding: 0;
+
+
+
+}
+.baby-text{
+    /* height: 331px;
+    width: 640px; */
+    margin: 0 auto;
+    margin-top: 170px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+.baby-head{
+  font-size: 56px;
+  font: bold;
+  margin-bottom: 0px;
+
+}
+.image-1{
+    height: 575px;
+    width: 468px;
+    right: 10px;
+}
+/* text */
+.em{
+color: orange;
+}
+.to{
+color: skyblue;
+}
+.btn-1{
+   height: 50px;
+   width: 197px;
+   color: white;
+   background-color: black; 
+   border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav{
+    flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 16px;
+    }
+    .nav-text, .btn-nav{
+        display: none;
+    }
+    .img-1{
+        display: block;
+        
+    }
+    .title{
+        display: none;
+    }
+    .baby-container{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        height: fit-content ;
+        width: fit-content;
+    }
+    .baby-text{
+        margin-top: 0%;
+    }
+    .image-1{
+        height: 575px;
+        width: 468px;
+        /* right: 10px; */
+    }
+    .nav{
+        width: 100%;
+        justify-content: space-between;
+        gap: 0px;
+    }
+    .image-1{
+        height: 250px;
+        width:250px;
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .baby-head{
+        font-size:30px ;
+        text-align: center;
+    }
+    .pera-1{
+        text-align: center;
+        
+    }
+    .btn-1{
+       /* margin-left: 30px; */
+      display: block;
+      margin: 0 auto;
+    }
+}
