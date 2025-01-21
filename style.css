@@ -435,8 +435,8 @@ color: skyblue;
         gap: 0px;
     }
     .image-1{
-        height: 250px;
-        width:250px;
+        height: 370px;
+        width:320px;
         display: block;
         margin: 0 auto;
         justify-content: center;
@@ -448,6 +448,7 @@ color: skyblue;
     }
     .pera-1{
         text-align: center;
+       
         
     }
     .btn-1{
