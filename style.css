@@ -1,6 +1,6 @@
 /* navbar-design */
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 /* .head{
     height: 102px;
@@ -387,7 +387,61 @@ color: skyblue;
     background-image: linear-gradient(white,rgba(255, 217, 0, 0.401) 70%);
    
 }
+footer{
+    /* display: flex; */
+    height: 530px;
+    width: 1439;
+    background-color: #3cd8e8;
+    margin: 0 auto;
+    
+}
+.foot-img{
+    display: flex;
+    gap: 5px;
+    padding: 0px;
+    margin: 0px;
+}
+.foot-container{
+    height: 222px;
+    width: 1070.91px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding:170px;
+    gap: 50px;
 
+}
+
+.foot-head{
+    color: #FFFFFF;
+    size: 42.14px ;
+    font: bold;
+
+}
+.kid-img{
+    margin-top: 10px;
+    height: 82.9px;
+     width:65px;
+     color: white;
+}
+.keep{
+    gap: 0px;
+}
+.marquee-cont{
+    color: #202323;
+    background-color: #05D4DF;
+    height: 25px;
+    width: 1140px;
+    font-size: x-large;
+    margin: 0 auto;
+    border: 2px solid transparent;
+    padding: 10px;
+    gap: 10px;
+}
+.mark{
+    justify-content: center;
+    margin: 0 auto;
+}
 
 
 
