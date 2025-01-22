@@ -230,12 +230,13 @@ color: skyblue;
    height: 630.52px;
    width: 1160px;
    padding: 0px;
+  
 }
 
 .story-1{
   height:630.52px;
   width:540.27px;  
-  border:1px solid black;
+  border:1px solid transparent;
   border-radius: 16px;
   margin: o auto;
   background-color: #FFFFFF;
@@ -371,7 +372,7 @@ color: skyblue;
    /* background-color:skyblue; */
   
    border-radius: 16px;
-   border: 2px solid gray;
+   border: 1px solid transparent;
    background-color: #FFFFFF;
    height:301.61px;
    width: 290.69px;
@@ -430,13 +431,14 @@ footer{
 .marquee-cont{
     color: #202323;
     background-color: #05D4DF;
-    height: 25px;
+    height: 22px;
     width: 1140px;
     font-size: x-large;
     margin: 0 auto;
     border: 2px solid transparent;
     padding: 10px;
     gap: 10px;
+    margin-top: ;
 }
 .mark{
     justify-content: center;
@@ -581,6 +583,16 @@ footer{
      }
      .fun{
        margin-left: 25px; 
+     }
+     .foot-container{
+        display: grid;
+        grid-template-rows: 1fr;
+       align-items: center;
+       margin: 0 auto;
+       padding: 100px;
+     }
+     footer{
+        height: 900px;
      }
 
     
