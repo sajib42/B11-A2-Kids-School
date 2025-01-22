@@ -6,6 +6,10 @@
     height: 102px;
     width: 1400px;
 } */
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
 .nav{
     display: flex;
     justify-content: space-between;
@@ -323,9 +327,10 @@ color: skyblue;
 .btn-container{
    
     text-align: center;
-    padding: 50px;
+    /* padding: 50px;  */
+    padding-bottom: 80px;
     margin-top: 80px;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
 
 }
 .fun{
@@ -390,17 +395,20 @@ color: skyblue;
 }
 footer{
     /* display: flex; */
-    height: 530px;
-    width: 1439;
+    /* height: 540px; */
+    /* width: 1440px; */
     background-color: #3cd8e8;
     margin: 0 auto;
+    
     
 }
 .foot-img{
     display: flex;
-    gap: 5px;
-    padding: 0px;
+    gap: 10px;
+    padding: 2px;
     margin: 0px;
+    padding-left: 10px;
+    
 }
 .foot-container{
     height: 222px;
@@ -420,13 +428,35 @@ footer{
 
 }
 .kid-img{
-    margin-top: 10px;
-    height: 82.9px;
-     width:65px;
+    
+    height: 82.8px;
+     width:67px;
      color: white;
+     padding-bottom: 16px;
+     
 }
+.about-school{
+    /* background-color: #8700FF; */
+    padding: 35px;
+    color: #FFFFFF;
+}
+.div-foot{
+    padding: 20px;
+    gap: 10px;
+    padding-bottom: 5px;
+    /* background-color: #95B226; */
+}
+.div-keep{
+    padding: 20px;
+    padding-top: 15px;
+}
+
 .keep{
-    gap: 0px;
+    gap: 10px;
+    padding: 10px;
+}
+.last-p{
+  color: #FFFFFF;
 }
 .marquee-cont{
     color: #202323;
@@ -443,6 +473,15 @@ footer{
 .mark{
     justify-content: center;
     margin: 0 auto;
+}
+.school{
+    color: #FFFFFF;
+   padding-bottom: 10px;
+}
+.kep{
+    color: #FFFFFF;
+   padding-top: 15px;
+   padding-bottom: 15px;
 }
 
 
@@ -489,6 +528,7 @@ footer{
         width: 100%;
         justify-content: space-between;
         gap: 0px;
+        border-bottom: 1px solid;
     }
     .image-1{
         height: 370px;
@@ -594,9 +634,22 @@ footer{
      footer{
         height: 900px;
      }
+     .marquee-cont{
+        display: none;
+     }
      .marque{
-        height: 20px;
-        width: 100%;
-    
-   
+        
+        display: none;
+        
+    }
+    .last-p{
+        font-size: 18px;
+        margin-left: auto;
+    }
+    .story-main{
+        padding: 0px;
+    }
+    .story-sec{
+        padding: 0px;
+    }
 }
