@@ -594,7 +594,9 @@ footer{
      footer{
         height: 900px;
      }
-
+     .marque{
+        height: 20px;
+        width: 100%;
     
    
 }
