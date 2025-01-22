@@ -412,7 +412,7 @@ footer{
 }
 .foot-container{
     height: 222px;
-    width: 1070.91px;
+    /* width: 1070.91px; */
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -519,11 +519,7 @@ footer{
     .baby-text{
         margin-top: 0%;
     }
-    .image-1{
-        height: 575px;
-        width: 468px;
-        /* right: 10px; */
-    }
+  
     .nav{
         width: 100%;
         justify-content: space-between;
@@ -628,7 +624,7 @@ footer{
         display: grid;
         grid-template-rows: 1fr;
        align-items: center;
-       margin: 0 auto;
+       /* margin: 0 auto; */
        padding: 100px;
      }
      footer{
